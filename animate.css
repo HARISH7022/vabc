@@ -1,0 +1,42 @@
+.animate{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-name: test;
+    animation-duration:2s;
+    animation-iteration-count: 5;
+}
+@keyframes test{
+    20%{
+        width: 100px;
+        height: 200px;
+        background-color: red;
+    }
+    40%{
+        width: 200px;
+        height: 300px;
+        background-color:green;
+        border-radius: 20%;
+       
+    }
+    60%{
+        width: 300px;
+        height: 400px;
+        background-color: blueviolet;
+        padding: 30px;
+    }
+    80%{
+        width: 400px;
+        height: 500px;
+        background-color: yellow;
+        border-radius: 40%;
+        padding: 50px;
+    }
+    100%{
+        width: 500px;
+        height: 600px;
+        background-color:rgb(43, 20, 51);
+        border-radius: 50%;
+        padding: 70px;
+    }
+}
